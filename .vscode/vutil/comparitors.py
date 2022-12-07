@@ -73,9 +73,7 @@ def calcSim(url,dc,doc):
     return
 
 def calcLocalHA(url,dc,doc):
-# A very simple way to calculate the similarity among two lists of objects is finding the distinct elements 
-# and also common elements and computing it’s quotient. 
-# The result is then multiplied by 100, to get the percentage.
+# A very simple way to calculate HA - basic assumption is >1 is good to go.
 
     print(" .      Calculating local HA for url:",url)
     print(" .      Datacenter ",dc)
