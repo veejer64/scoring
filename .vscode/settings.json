@@ -1,0 +1,13 @@
+{
+    "python.pythonPath": "/Users/veejer/.pyenv/shims/python",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "inv",
+            "database": "${workspaceFolder:scoring}/inventory.db",
+            "group": "scoring"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
